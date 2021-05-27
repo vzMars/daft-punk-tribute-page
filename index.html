@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
+    <meta
+      charset="utf-8"
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
     <title>Daft Punk Tribute Page</title>
     <link href="styles/style.css" rel="stylesheet" />
   </head>
@@ -9,18 +13,18 @@
     <header id="header">
       <div id="img-div">
         <h1 id="title">Daft Punk</h1>
-        <figcaption id="img-caption">1993–2021</figcaption>
         <img
           id="image"
           src="images/daft-punk1.jpeg"
           alt="The music duo Daft Punk standing on snow"
         />
+        <p id="img-caption">1993–2021</p>
       </div>
     </header>
     <main id="main">
+      <h2>About</h2>
+      <hr />
       <article id="tribute-info">
-        <h2>About</h2>
-        <hr />
         <p>
           Daft Punk were a French electronic music duo formed in 1993 in Paris
           by Guy-Manuel de Homem-Christo and Thomas Bangalter. Often considered
@@ -76,36 +80,45 @@
           alt="The music duo Daft Punk together side by side"
         />
       </article>
-
+      <h2>Discography</h2>
+      <hr />
       <article id="tribute-discography">
-        <h2>Discography</h2>
-        <hr />
-        <h3>Homework</h3>
-        <img
-          class="album-cover"
-          src="images/daft-punk3.jpeg"
-          alt="The album cover for Homework"
-        />
-        <h3>Discovery</h3>
-        <img
-          class="album-cover"
-          src="images/daft-punk4.jpeg"
-          alt="The album cover for Discovery"
-        />
-        <h3>Human After All</h3>
-        <img
-          class="album-cover"
-          src="images/daft-punk5.jpeg"
-          alt="The album cover for Human After All"
-        />
-        <h3>Random Access Memories</h3>
-        <img
-          class="album-cover"
-          src="images/daft-punk6.jpeg"
-          alt="The album cover for Random Access Memories"
-        />
+        <div class="album">
+          <h3>Homework</h3>
+          <img
+            class="album-cover"
+            src="images/daft-punk3.jpeg"
+            alt="The album cover for Homework"
+          />
+        </div>
+        <div class="album">
+          <h3>Discovery</h3>
+          <img
+            class="album-cover"
+            src="images/daft-punk4.jpeg"
+            alt="The album cover for Discovery"
+          />
+        </div>
+        <div class="album">
+          <h3>Human After All</h3>
+          <img
+            class="album-cover"
+            src="images/daft-punk5.jpeg"
+            alt="The album cover for Human After All"
+          />
+        </div>
+        <div class="album">
+          <h3>Random Access Memories</h3>
+          <img
+            class="album-cover"
+            src="images/daft-punk6.jpeg"
+            alt="The album cover for Random Access Memories"
+            width="300px"
+            height="300px"
+          />
+        </div>
       </article>
     </main>
-    <footer>Made by Marcos Gonzalez</footer>
+    <footer id="footer">Made by Marcos Gonzalez</footer>
   </body>
 </html>
