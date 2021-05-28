@@ -27,7 +27,8 @@ a:hover {
 }
 
 #image {
-  width: 100%;
+  display: block;
+  max-width: 100%;
   height: auto;
 }
 
@@ -124,6 +125,11 @@ a:hover {
   }
   #img-caption {
     left: 51%;
+  }
+  h3 {
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
   }
 }
 
