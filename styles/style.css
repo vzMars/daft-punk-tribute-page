@@ -17,13 +17,11 @@ h3 {
 }
 
 a {
-  color: #a9a9a9;
-  text-decoration: none;
+  color: #ffffff;
 }
 
 a:hover {
-  color: #ffffff;
-  text-decoration: underline;
+  color: #a9a9a9;
 }
 
 #image {
