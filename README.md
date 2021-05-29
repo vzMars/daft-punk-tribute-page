@@ -4,4 +4,4 @@ A tribute page dedicated to Quincy Larson made for freeCodeCamp project submissi
 
 This page is build using plain HTML and CSS.
 
-![project-image] (images/project-image.png)
+<img src = "src/images/project-image.png">
