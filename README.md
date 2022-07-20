@@ -12,6 +12,10 @@ This website is a tribute page dedicated to the French electronic music duo.
 
 This website was created using only HTML and CSS. The layout of this site uses flexbox and uses relative length units for the font-sizes and images. With the use of media queries this site is responsive and works on different viewport sizes.
 
+## Optimizations
+
+I would love to go back and make the responsiveness of this site smoother and experiment using CSS functions like max(), min() and clamp(). I also would like to improve the design of the website.
+
 ## Lessons Learned:
 
 I learned how to work with relative units, media queries and flexbox to create a responsive website. I also learned how to work with external fonts by importing them via CSS. Overall, I am happy with how this site turned out and aim to learn more about responsive web design.
