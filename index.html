@@ -1,30 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta
-      charset="utf-8"
-      name="viewport"
-      content="width=device-width, initial-scale=1"
-    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daft Punk Tribute Page</title>
-    <link href="styles/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header id="header">
-      <div id="img-div">
-        <h1 id="title">Daft Punk</h1>
-        <img
-          id="image"
-          src="images/daft-punk1.jpeg"
-          alt="The music duo Daft Punk standing on snow"
-        />
-        <p id="img-caption">1993–2021</p>
-      </div>
-    </header>
-    <main id="main">
-      <h2>About</h2>
-      <hr />
-      <article id="tribute-info">
+    <main>
+      <header>
+        <img src="./images/header-img.jpg" alt="header-img" />
+        <h1>Daft Punk</h1>
+        <span>1993-2021</span>
+      </header>
+      <section>
+        <h2>About</h2>
         <p>
           Daft Punk were a French electronic music duo formed in 1993 in Paris
           by Guy-Manuel de Homem-Christo and Thomas Bangalter. Often considered
@@ -32,113 +24,56 @@
           popularity in the late 1990s as part of the French house movement.
           They also had success in the years following, combining elements of
           house music with funk, techno, disco, indie rock and pop.
-          <br />
-          <br />
-          After Bangalter and Homem-Christo's indie rock band Darlin' disbanded,
-          they began experimenting with drum machines, synthesisers and the talk
-          box. Their debut studio album Homework was released by Virgin Records
-          in 1997 to positive reviews, backed by singles "Around the World" and
-          "Da Funk". From 1999, they assumed robot personas with helmets,
-          outfits and gloves for public appearances to preserve their
-          identities; they made few media appearances.[1] They were managed from
-          1996 to 2008 by Pedro Winter, the head of Ed Banger Records.
-          <br />
-          <br />
-          Daft Punk's second album, Discovery (2001), had further success,
-          supported by hit singles "One More Time", "Digital Love" and "Harder,
-          Better, Faster, Stronger". The album became the basis for an animated
-          film, Interstella 5555, supervised by Japanese animator Leiji
-          Matsumoto. Daft Punk's third album, Human After All (2005), received
-          mixed reviews, though the singles "Robot Rock" and "Technologic"
-          achieved success in the United Kingdom. The duo directed their first
-          film, Electroma, an avant-garde science fiction film, in 2006. They
-          toured throughout 2006 and 2007 and released the live album Alive
-          2007, which won a Grammy Award for Best Electronic/Dance Album; the
-          tour is credited for popularising dance music in North America. Daft
-          Punk composed the score for the 2010 film Tron: Legacy.
-          <br />
-          <br />
-          In 2013, Daft Punk left Virgin for Columbia Records and released their
-          fourth album, Random Access Memories, to acclaim; lead single "Get
-          Lucky" reached the top 10 in the charts of 32 countries. Random Access
-          Memories won five Grammy Awards in 2014, including Album of the Year
-          and Record of the Year for "Get Lucky". In 2016, Daft Punk gained
-          their only number one on the Billboard Hot 100 with "Starboy", a
-          collaboration with the Weeknd. Rolling Stone ranked them No. 12 on its
-          list of the 20 Greatest Duos of All Time. They announced their split
-          in 2021.
-          <br />
-          <br />
-          To learn more about Daft Punk, see their page on
-          <a
-            id="tribute-link"
-            href="https://en.wikipedia.org/wiki/Daft_Punk"
-            target="_blank"
-            >Wikipedia.</a
-          >
         </p>
-        <img
-          id="daft-punk"
-          src="images/daft-punk2.png"
-          alt="The music duo Daft Punk together side by side"
-        />
-      </article>
-      <h2>Discography</h2>
-      <hr />
-      <article id="tribute-discography">
-        <div class="album">
-          <h3>Homework</h3>
-          <a
-            href="https://en.wikipedia.org/wiki/Homework_(Daft_Punk_album)"
-            target="_blank"
-          >
-            <img
-              class="album-cover"
-              src="images/daft-punk3.jpeg"
-              alt="The album cover for Homework"
-          /></a>
+        <span
+          >To learn more about Daft Punk, see their page on
+          <a href="https://en.wikipedia.org/wiki/Daft_Punk" target="_blank"
+            >Wikipedia.</a
+          ></span
+        >
+        <img src="./images/main-img.png" alt="Daft Punk Duo" />
+      </section>
+      <section>
+        <h2>Discography</h2>
+        <div class="albums">
+          <div class="album">
+            <h3>Homework</h3>
+            <a
+              href="https://en.wikipedia.org/wiki/Homework_(Daft_Punk_album)"
+              target="_blank"
+            >
+              <img src="./images/album1.jpeg" alt="album"
+            /></a>
+          </div>
+          <div class="album">
+            <h3>Discovery</h3>
+            <a
+              href="https://en.wikipedia.org/wiki/Discovery_(Daft_Punk_album)"
+              target="_blank"
+            >
+              <img src="./images/album2.jpeg" alt="album"
+            /></a>
+          </div>
+          <div class="album">
+            <h3>Human After All</h3>
+            <a
+              href="https://en.wikipedia.org/wiki/Human_After_All"
+              target="_blank"
+            >
+              <img src="./images/album3.jpeg" alt="album"
+            /></a>
+          </div>
+          <div class="album">
+            <h3>Random Access Memories</h3>
+            <a
+              href="https://en.wikipedia.org/wiki/Random_Access_Memories"
+              target="_blank"
+            >
+              <img src="./images/album4.jpg" alt="album"
+            /></a>
+          </div>
         </div>
-        <div class="album">
-          <h3>Discovery</h3>
-          <a
-            href="https://en.wikipedia.org/wiki/Discovery_(Daft_Punk_album)"
-            target="_blank"
-          >
-            <img
-              class="album-cover"
-              src="images/daft-punk4.jpeg"
-              alt="The album cover for Discovery"
-          /></a>
-        </div>
-        <div class="album">
-          <h3>Human After All</h3>
-          <a
-            href="https://en.wikipedia.org/wiki/Human_After_All"
-            target="_blank"
-          >
-            <img
-              class="album-cover"
-              src="images/daft-punk5.jpeg"
-              alt="The album cover for Human After All"
-          /></a>
-        </div>
-        <div class="album">
-          <h3>Random Access Memories</h3>
-          <a
-            href="https://en.wikipedia.org/wiki/Random_Access_Memories"
-            target="_blank"
-          >
-            <img
-              class="album-cover"
-              src="images/daft-punk6.jpeg"
-              alt="The album cover for Random Access Memories"
-          /></a>
-        </div>
-      </article>
+      </section>
     </main>
-    <footer id="footer">
-      Made by
-      <a href="https://github.com/vzMars" target="_blank">Marcos Gonzalez</a>
-    </footer>
   </body>
 </html>

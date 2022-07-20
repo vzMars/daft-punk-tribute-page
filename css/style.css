@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  max-width: 128rem;
+  margin: 0 auto;
+  font-size: 1.6rem;
+}
+
+main section {
+  padding: 0 2rem;
+}
+
+section,
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+header {
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+a,
+.albums {
+  color: #ff4c61;
+}
+
+.albums {
+  text-align: center;
+}
+
+.album img {
+  border: 1px solid #ffffff;
+}
+
+@media (min-width: 37.5em) {
+  .albums {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .album img {
+    width: 27rem;
+  }
+}
+
+@media (min-width: 47.5em) {
+  .album img {
+    width: 38rem;
+  }
+}
+
+@media (min-width: 47.5em) {
+  .album img {
+    width: 35rem;
+  }
+}
+
+@media (min-width: 71.25em) {
+  .album img {
+    width: 50rem;
+  }
+
+  main {
+    font-size: 2.4rem;
+  }
+
+  header {
+    font-size: 3.5rem;
+  }
+
+  header img {
+    width: 60%;
+  }
+}
