@@ -1,7 +1,27 @@
-# tribute-page
+# Daft Punk Tribute Page
 
-A tribute page dedicated to Daft Punk made for freeCodeCamp project submission.
+This website is a tribute page dedicated to the French electronic music duo.
 
-This page is build using plain HTML and CSS.
+**Link to project:** https://vzmars.github.io/daft-punk-tribute-page/
 
-<img src = "images/project-image.png">
+![alt text](https://i.imgur.com/DKJ1xg9.png)
+
+## How It's Made:
+
+**Tech used:** HTML, CSS
+
+This website was created using only HTML and CSS. The layout of this site uses flexbox and uses relative length units for the font-sizes and images. With the use of media queries this site is responsive and works on different viewport sizes.
+
+## Lessons Learned:
+
+I learned how to work with relative units, media queries and flexbox to create a responsive website. I also learned how to work with external fonts by importing them via CSS. Overall, I am happy with how this site turned out and aim to learn more about responsive web design.
+
+## More Projects:
+
+Take a look at these other projects that I have in my portfolio:
+
+**FFXIV Survey Form:** https://vzmars.github.io/ffxiv-survey-form/
+
+**Elemental Rock–Paper–Scissors:** https://vzmars.github.io/elemental-rock-paper-scissors/
+
+**Dragon Quest Landing Page:** https://vzmars.github.io/dragon-quest-landing-page/
