@@ -24,8 +24,8 @@ I learned how to work with relative units, media queries and flexbox to create a
 
 Take a look at these other projects that I have in my portfolio:
 
-**FFXIV Survey Form:** https://vzmars.github.io/ffxiv-survey-form/
+**FFXIV Survey Form:** https://github.com/vzMars/ffxiv-survey-form
 
-**Elemental Rock–Paper–Scissors:** https://vzmars.github.io/elemental-rock-paper-scissors/
+**Elemental Rock–Paper–Scissors:** https://github.com/vzMars/elemental-rock-paper-scissors
 
-**Dragon Quest Landing Page:** https://vzmars.github.io/dragon-quest-landing-page/
+**Dragon Quest Landing Page:** https://github.com/vzMars/dragon-quest-landing-page
